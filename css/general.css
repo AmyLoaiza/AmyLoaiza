@@ -1,0 +1,396 @@
+:root {
+    --azul: #145473;
+    --naranja: #E86808;
+    --verde: #44B001;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Khand', sans-serif;
+    font-family: 'K2D', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+	width: 100%;
+}
+a {
+	display: inline-block;
+}
+ol, ul, dl {
+    margin: 0;
+}
+.colo {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.colo img {
+    align-items: center;
+    width: 2%;
+}
+.colo h3 {
+    color: white;
+    font-weight: 600;
+    font-style: italic;
+    margin: 5px 15px ;
+    font-size: 20px;
+}
+
+/*Menu*/
+header {
+    background: var(--azul);
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav {
+    width: 94%;
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+}
+.logome {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.logome img {
+    width: 20%;
+}
+label i {
+    color: white;
+}
+#paginas {
+    position: fixed;
+    top: 4.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    background: var(--azul);
+    padding: 0 !important;
+    width: calc(94% - 2rem);
+    border-radius: 0 0 10px 10px;
+}
+#paginas li {
+    margin: 0 1.25rem;
+    text-align: center;
+    width: 100%;
+    display: none;
+}
+#paginas li a {
+    display: block;
+    font-size: 22px;
+    text-decoration: none;
+    padding: 1.25rem 0;
+    color: white;
+    transition: color .3s ease;
+}
+#paginas a:hover {
+    color: var(--naranja);
+}
+.bbtt {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    cursor: pointer;
+}
+#check {
+    display: none;
+}
+#check:checked ~ #paginas li {
+    display: block;
+}
+@media screen and (max-width: 1400px) {
+    #paginas li a {
+        font-size: 22px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .bbtt {
+        display: none;
+    }
+    #paginas {
+        top: 3rem;
+        position: unset;
+        width: unset;
+        flex-direction: row;
+        background: none;
+    }
+    #paginas li {
+        padding: 1.25rem 0;
+        display: inline-flex;
+        width: unset;
+        margin: 0 1.75rem;
+    }
+    #paginas li:last-child {
+        margin-right: 0;
+    }
+    #paginas li a {
+        padding: 0.6rem 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    #paginas li a {
+        font-size: 17px;
+        padding: 0.6rem 0;
+    }
+    #paginas {
+        top: 3.5rem;
+    }
+}
+@media screen and (max-width: 576px) {
+    #paginas li a {
+        font-size: 16px;
+        padding: 0.6rem 0;
+    }
+    #paginas {
+        top: 3.3rem;
+    }
+}
+@media screen and (max-width: 442px) {
+    #paginas li a {
+        font-size: 17px;
+        padding: 0.6rem 0;
+    }
+    #paginas {
+        top: 2.5rem;
+    }
+}
+
+/*Fin menu*/
+
+/*Contenido*/
+main {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    max-width: 1400px;
+    padding: 1%;
+}
+#info {
+    width: 100%;
+    display: flex;
+}
+#marcas {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: #E86808;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+#marcas h4 {
+    text-align: center;
+    margin-bottom: 2%;
+    font-weight: bold;
+    font-style: italic;
+}
+.swiper {
+    width: 100%;
+}
+.swiper-slide {
+    width: 300px;
+    height: 300px;
+    background: rgba(20, 84, 115, 0.3); 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 1.5%;
+}
+.product-content {
+    display: flex;
+    justify-content: center;
+}
+.product-image img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*Fin contenido*/
+
+/*Footer*/
+footer {
+    background: var(--azul);
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#todo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 94%;
+    max-width: 1400px;
+}
+#todo h4 {
+    color: var(--naranja);
+    font-size: 22px;
+    margin: 1% 0;
+}
+#todo p {
+    color: white;
+    margin: 1% 0;
+}
+#lpie , #cont , #vis , #redes {
+    padding: 0 1%;
+}
+#lpie {
+    width: 15%;
+    padding: .5% 3%;
+}
+#lpie img {
+    width: 100%;
+}
+#cont , #vis {
+    text-align: center;
+    width: 35%;
+}
+#redes {
+    display: flex;
+    width: 15%;
+}
+#redes a {
+    display: flex;
+    justify-content: center;
+}
+#redes img {
+    width: 70%;
+}
+/*Fin footer*/
+@media screen and (max-width: 992px) {
+    .swiper-slide {
+        width: 200px;
+        height: 200px;
+    }
+    #cont , #vis {
+        width: 20%;
+    }
+    #redes {
+        flex-direction: column;
+    }
+    #redes img {
+        margin: 1% 0;
+        width: 30%;
+    }
+    #lpie {
+        width: 20%;
+    }
+    footer{
+        padding: 2% 0;
+    }
+    .colo h3 {
+        font-size: 19px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .swiper-slide {
+        width: 200px;
+        height: 200px;
+    }
+    #cont , #vis {
+        width: 20%;
+    }
+    #redes {
+        flex-direction: column;
+    }
+    #redes img {
+        margin: 1% 0;
+        width: 35%;
+    }
+    #lpie {
+        width: 25%;
+    }
+    footer{
+        padding: 2% 0;
+    }
+    #todo h4 {
+        font-size: 18px;
+    }
+    #todo p {
+        font-size: 13px;
+    }
+    #marcas h4 {
+        font-size: 22px;
+    }
+    .colo h3 {
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .swiper-slide {
+        width: 200px;
+        height: 200px;
+    }
+    #cont , #vis {
+        width: 20%;
+    }
+    #redes {
+        flex-direction: column;
+    }
+    #redes img {
+        margin: 1% 0;
+        width: 35%;
+    }
+    #lpie {
+        width: 25%;
+    }
+    footer{
+        padding: 2% 0;
+    }
+    #todo h4 {
+        font-size: 16px;
+    }
+    #todo p {
+        font-size: 10px;
+    }
+    #marcas h4 {
+        font-size: 20px;
+    }
+    .colo h3 {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 442px) {
+    .swiper-slide {
+        width: 200px;
+        height: 200px;
+    }
+    #cont , #vis {
+        width: 20%;
+    }
+    #redes {
+        flex-direction: column;
+    }
+    #redes img {
+        margin: 1% 0;
+        width: 35%;
+    }
+    #lpie {
+        width: 25%;
+    }
+    footer{
+        padding: 2% 0;
+    }
+    #todo h4 {
+        font-size: 14px;
+    }
+    #todo p {
+        font-size: 8px;
+    }
+    #marcas h4 {
+        font-size: 20px;
+    }
+    .colo h3 {
+        font-size: 15px;
+    }
+}

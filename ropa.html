@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moni Bikes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shorcut icon" type="imagen/x-icon" href="img/Logon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/produ.css">
+    <link rel="stylesheet" href="css/items.css">
+</head>
+<body>
+    <div class="colo">
+        <h3>PRODUCTO 100%</h3>
+        <img src="img/inicio/colombia.png" alt="Icono bandera de colombia">
+    </div>
+    <header>
+        <nav>
+            <a href="index.html" class="logome"><img src="img/logob.png" alt="Logo"></a><input type="checkbox" id="check">
+            <label for="check" class="bbtt">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <ul id="paginas">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="ropa.html">Nuestros productos</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+        <!--Inicio menu lateral-->
+	<div class="down">
+        <a href="ropa.html">Productos</a>
+    <div id="m">
+    <ul class="l">
+        <li>
+            <details>
+                <summary><a href="ropa.html">Ropa</a></summary>
+                <ul class="items">
+                        <li><a href="#busos">Busos</a></li>
+                        <li><a href="#chaquetas">Chaquetas</a></li>
+                        <li><a href="#leggins">Leggins</a></li>
+                        <li><a href="#kids">Kids</a></li>
+                </ul>
+            </details>
+        </li>
+        <li>
+            <details>
+                <summary><a href="uni.html">Uniformes</a></summary>
+                <ul class="items">
+                        <li><a href="#jerseys">Jerseys</a></li>
+                        <li><a href="#enterizos">Enterizos</a></li>
+                        <li><a href="#licras">Licras</a></li>
+                        <li><a href="#personalizados">Personalizados</a></li>
+                        <li><a href="#kids1">Kids</a></li>
+                </ul>
+            </details>
+        </li>
+        <li>
+            <details>
+                <summary><a href="za.html">Zapatillas</a></summary>
+                    <ul class="items">
+                        <li><a href="#personalizadas">Personalizadas</a></li>
+                        <li><a href="#redius">Linea redius</a></li>
+                    </ul>
+            </details>
+        </li>
+        <li>
+            <details>
+                <summary><a href="ac.html">Accesorios</a></summary>
+                    <ul class="items">
+                        <li><a href="#gafas">Gafas</a></li>
+                        <li><a href="#cascos">Cascos</a></li>
+                        <li><a href="#buff">Buff</a></li>
+                        <li><a href="#medias">Medias</a></li>
+                        <li><a href="#luces">Luces</a></li>
+                    </ul>
+            </details>
+        </li>
+    </ul>
+    </div>
+</div>
+<!--Fin menu lateral-->
+
+<main>
+    <div class="catalogo">
+        <div id="busos" class="general">
+            <h3>Busos</h3>
+                <div class="cc">
+                    <!-- Casilla producto -->
+                        <div class="producto">
+                            <img src="img/cata/b1.jpg" alt="Buso urban dinosaurio">
+                            <h5>Buso dinosaurio uni</h5>
+                            <p class="precio">$80.000</p>
+                            <button type="button" class="btn btn-primary boton" data-bs-toggle="modal" data-bs-target="#proa"><img src="img/cata/boton.png"></button>
+                        </div>
+                        <!-- Fin casilla -->
+                        <!-- Modal -->
+                        <div class="modal fade" id="proa" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="image">
+                                            <img src="img/cata/b1.jpg" alt="Buso azul cavaliere">
+                                        </div>
+                                        <div class="descri">
+                                            <h6>Buso estampado dinosaurio</h6>
+                                            <p>Tela en algodón perchado.<br><span>Colores disponibles:</span></p>
+                                            <img src="img/cata/color4.PNG" alt="colores disponibles">
+                                            <p class="precio">$80.000</p>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <a href="https://wa.me/message/WI6EMRFHOAM7K1" target="_blank"><button type="button" class="btn btn-primary boton2">Comprar<img src="img/cata/carrito.png" alt="Icono bolsa de compras"></button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <!-- Fin de modal -->
+
+                    <!-- Casilla producto -->
+                        <div class="producto">
+                            <img src="img/cata/img75.jpg" alt="Buso urban espacial">
+                            <h5>Buso espacial rosa</h5>
+                            <p class="precio">$80.000</p>
+                            <button type="button" class="btn btn-primary boton" data-bs-toggle="modal" data-bs-target="#proa2"><img src="img/cata/boton.png"></button>
+                        </div>
+                        <!-- Fin casilla -->
+                        <!-- Modal -->
+                        <div class="modal fade" id="proa2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="image">
+                                            <img src="img/cata/img75.jpg" alt="Buso rosa cavaliere">
+                                        </div>
+                                        <div class="descri">
+                                            <h6>Buso estampado espacial</h6>
+                                            <p>Tela en algodón perchado.<br><span>Colores disponibles:</span></p>
+                                            <img src="img/cata/color1.PNG" alt="colores disponibles">
+                                            <p class="precio">$80.000</p>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <a href="https://wa.me/message/WI6EMRFHOAM7K1" target="_blank"><button type="button" class="btn btn-primary boton2">Comprar<img src="img/cata/carrito.png" alt="Icono bolsa de compras"></button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <!-- Fin de modal -->
+
+                    <!-- Casilla producto -->
+                    <div class="producto">
+                        <img src="img/cata/img78.jpg" alt="Buso urban estampado">
+                        <h5>Buso estampado uni</h5>
+                        <p class="precio">$80.000</p>
+                        <button type="button" class="btn btn-primary boton" data-bs-toggle="modal" data-bs-target="#proa3"><img src="img/cata/boton.png"></button>
+                    </div>
+                    <!-- Fin casilla -->
+                    <!-- Modal -->
+                    <div class="modal fade" id="proa3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="image">
+                                        <img src="img/cata/img78.jpg" alt="Buso celeste cavaliere">
+                                    </div>
+                                    <div class="descri">
+                                        <h6>Buso estampado celeste</h6>
+                                        <p>Tela en algodón perchado.<br><span>Colores disponibles:</span></p>
+                                        <img src="img/cata/color3.PNG" alt="colores disponibles">
+                                        <p class="precio">$80.000</p>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="https://wa.me/message/WI6EMRFHOAM7K1" target="_blank"><button type="button" class="btn btn-primary boton2">Comprar<img src="img/cata/carrito.png" alt="Icono bolsa de compras"></button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin de modal -->
+
+                    <!-- Casilla producto -->
+                    <div class="producto">
+                        <img src="img/cata/img79.jpg" alt="Buso urban MIB">
+                        <h5>Buso Men in Bike</h5>
+                        <p class="precio">$80.000</p>
+                        <button type="button" class="btn btn-primary boton" data-bs-toggle="modal" data-bs-target="#proa4"><img src="img/cata/boton.png"></button>
+                    </div>
+                    <!-- Fin casilla -->
+                    <!-- Modal -->
+                    <div class="modal fade" id="proa4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="image">
+                                        <img src="img/cata/img79.jpg" alt="Buso amarillo mib">
+                                    </div>
+                                    <div class="descri">
+                                        <h6>Buso MIB Cavaliere</h6>
+                                        <p>Tela en algodón perchado.<br><span>Colores disponibles:</span></p>
+                                        <img src="img/cata/color3.PNG" alt="colores disponibles">
+                                        <p class="precio">$80.000</p>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="https://wa.me/message/WI6EMRFHOAM7K1" target="_blank"><button type="button" class="btn btn-primary boton2">Comprar<img src="img/cata/carrito.png" alt="Icono bolsa de compras"></button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin de modal -->
+
+                    <!-- Casilla producto -->
+                    <div class="producto">
+                        <img src="img/cata/img80.jpg" alt="Buso urban astronauta">
+                        <h5>Buso astronauta uni</h5>
+                        <p class="precio">$80.000</p>
+                        <button type="button" class="btn btn-primary boton" data-bs-toggle="modal" data-bs-target="#proa5"><img src="img/cata/boton.png"></button>
+                    </div>
+                    <!-- Fin casilla -->
+                    <!-- Modal -->
+                    <div class="modal fade" id="proa5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="image">
+                                        <img src="img/cata/img80.jpg" alt="Buso astronauta cavaliere">
+                                    </div>
+                                    <div class="descri">
+                                        <h6>Buso estampado astronauta</h6>
+                                        <p>Tela en algodón perchado.<br><span>Colores disponibles:</span></p>
+                                        <img src="img/cata/color2.PNG" alt="colores disponibles">
+                                        <p class="precio">$80.000</p>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="https://wa.me/message/WI6EMRFHOAM7K1" target="_blank"><button type="button" class="btn btn-primary boton2">Comprar<img src="img/cata/carrito.png" alt="Icono bolsa de compras"></button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin de modal -->
+                    <!-- Casilla producto -->
+                    <div class="producto">
+                        <img src="img/cata/img82.jpg" alt="Buso urban astrobike">
+                        <h5>Buso astrobikes uni</h5>
+                        <p class="precio">$80.000</p>
+                        <button type="button" class="btn btn-primary boton" data-bs-toggle="modal" data-bs-target="#proa6"><img src="img/cata/boton.png"></button>
+                    </div>
+                    <!-- Fin casilla -->
+                    <!-- Modal -->
+                    <div class="modal fade" id="proa6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="image">
+                                        <img src="img/cata/img82.jpg" alt="Buso astrobike cavaliere">
+                                    </div>
+                                    <div class="descri">
+                                        <h6>Buso estampado astrobike</h6>
+                                        <p>Tela en algodón perchado.<br><span>Colores disponibles:</span></p>
+                                        <img src="img/cata/color1.PNG" alt="colores disponibles">
+                                        <p class="precio">$80.000</p>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="https://wa.me/message/WI6EMRFHOAM7K1" target="_blank"><button type="button" class="btn btn-primary boton2">Comprar<img src="img/cata/carrito.png" alt="Icono bolsa de compras"></button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin de modal -->
+
+
+                </div>
+        </div>
+
+        <div id="chaquetas" class="general">
+            <h3>Chaquetas</h3>
+                <div class="cc">
+                    <!-- Casilla producto -->
+                    <div class="producto">
+                        <img src="img/cata/img83.jpg" alt="Chaqueta cavaliere">
+                        <h5>Chaqueta cavaliere</h5>
+                        <p class="precio">$39.900</p>
+                        <button type="button" class="btn btn-primary boton" data-bs-toggle="modal" data-bs-target="#proa7"><img src="img/cata/boton.png"></button>
+                    </div>
+                    <!-- Fin casilla -->
+                    <!-- Modal -->
+                    <div class="modal fade" id="proa7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="image">
+                                        <img src="img/cata/img83.jpg" alt="Chaqueta azul cavaliere">
+                                    </div>
+                                    <div class="descri">
+                                        <h6>Chaqueta azul Cavaliere</h6>
+                                        <p>Tela impermeable.<br><span>Colores disponibles:</span></p>
+                                        <img src="img/cata/color2.PNG" alt="colores disponibles">
+                                        <p class="precio">$39.000</p>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="https://wa.me/message/WI6EMRFHOAM7K1" target="_blank"><button type="button" class="btn btn-primary boton2">Comprar<img src="img/cata/carrito.png" alt="Icono bolsa de compras"></button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin de modal -->
+                    <!-- Casilla producto -->
+                    <div class="producto">
+                        <img src="img/cata/img84.jpg" alt="Chaqueta camuflada">
+                        <h5>Chaqueta camuflada</h5>
+                        <p class="precio">$39.900</p>
+                        <button type="button" class="btn btn-primary boton" data-bs-toggle="modal" data-bs-target="#proa8"><img src="img/cata/boton.png"></button>
+                    </div>
+                    <!-- Fin casilla -->
+                    <!-- Modal -->
+                    <div class="modal fade" id="proa8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="image">
+                                        <img src="img/cata/img84.jpg" alt="Chaqueta camuflada cavaliere">
+                                    </div>
+                                    <div class="descri">
+                                        <h6>Chaqueta camuflada Cavaliere</h6>
+                                        <p>Tela impermeable.<br>
+                                        <p class="precio">$39.900</p>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="https://wa.me/message/WI6EMRFHOAM7K1" target="_blank"><button type="button" class="btn btn-primary boton2">Comprar<img src="img/cata/carrito.png" alt="Icono bolsa de compras"></button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin de modal -->
+                    <!-- Casilla producto -->
+                    <div class="producto">
+                        <img src="img/cata/img85.jpg" alt="Chaqueta negra">
+                        <h5>Chaqueta unicolor</h5>
+                        <p class="precio">$39.900</p>
+                        <button type="button" class="btn btn-primary boton" data-bs-toggle="modal" data-bs-target="#proa9"><img src="img/cata/boton.png"></button>
+                    </div>
+                    <!-- Fin casilla -->
+                    <!-- Modal -->
+                    <div class="modal fade" id="proa9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="image">
+                                        <img src="img/cata/img85.jpg" alt="Chaqueta negra cavaliere">
+                                    </div>
+                                    <div class="descri">
+                                        <h6>Chaqueta unicolor cremallera reflectiva</h6>
+                                        <p>Tela impermeable.<br><span>Colores disponibles:</span></p>
+                                        <img src="img/cata/color1.PNG" alt="colores disponibles">
+                                        <p class="precio">$39.900</p>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="https://wa.me/message/WI6EMRFHOAM7K1" target="_blank"><button type="button" class="btn btn-primary boton2">Comprar<img src="img/cata/carrito.png" alt="Icono bolsa de compras"></button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin de modal -->
+                    <!-- Casilla producto -->
+                    <div class="producto">
+                        <img src="img/cata/img86.jpg" alt="Chaqueta militar">
+                        <h5>Chaqueta militar uni</h5>
+                        <p class="precio">$39.900</p>
+                        <button type="button" class="btn btn-primary boton" data-bs-toggle="modal" data-bs-target="#proa10"><img src="img/cata/boton.png"></button>
+                    </div>
+                    <!-- Fin casilla -->
+                    <!-- Modal -->
+                    <div class="modal fade" id="proa10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="image">
+                                        <img src="img/cata/img86.jpg" alt="Chaqueta militar cavaliere">
+                                    </div>
+                                    <div class="descri">
+                                        <h6>Chaqueta camuflada militar</h6>
+                                        <p>Tela impermeable.<br>
+                                        <p class="precio">$39.900</p>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="https://wa.me/message/WI6EMRFHOAM7K1" target="_blank"><button type="button" class="btn btn-primary boton2">Comprar<img src="img/cata/carrito.png" alt="Icono bolsa de compras"></button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin de modal -->
+                    <!-- Casilla producto -->
+                    <div class="producto">
+                        <img src="img/cata/img87.jpeg" alt="Chaqueta dama">
+                        <h5>Cavaliere dama uni</h5>
+                        <p class="precio">$39.900</p>
+                        <button type="button" class="btn btn-primary boton" data-bs-toggle="modal" data-bs-target="#proa11"><img src="img/cata/boton.png"></button>
+                    </div>
+                    <!-- Fin casilla -->
+                    <!-- Modal -->
+                    <div class="modal fade" id="proa11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="image">
+                                        <img src="img/cata/img87.jpeg" alt="Chaqueta fucsia cavaliere">
+                                    </div>
+                                    <div class="descri">
+                                        <h6>Chaqueta unicolor dama</h6>
+                                        <p>Tela impermeable.<br><span>Colores disponibles:</span></p>
+                                        <img src="img/cata/color2.PNG" alt="colores disponibles">
+                                        <p class="precio">$39.900</p>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="https://wa.me/message/WI6EMRFHOAM7K1" target="_blank"><button type="button" class="btn btn-primary boton2">Comprar<img src="img/cata/carrito.png" alt="Icono bolsa de compras"></button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin de modal -->
+                    <!-- Casilla producto -->
+                    <div class="producto">
+                        <img src="img/cata/img88.jpeg" alt="Chaqueta hombre">
+                        <h5>Cavaliere hombre</h5>
+                        <p class="precio">$39.900</p>
+                        <button type="button" class="btn btn-primary boton" data-bs-toggle="modal" data-bs-target="#proa11.1"><img src="img/cata/boton.png"></button>
+                    </div>
+                    <!-- Fin casilla -->
+                    <!-- Modal -->
+                    <div class="modal fade" id="proa11.1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="image">
+                                        <img src="img/cata/img88.jpeg" alt="Chaqueta naranja cavaliere">
+                                    </div>
+                                    <div class="descri">
+                                        <h6>Chaqueta unicolor hombre</h6>
+                                        <p>Tela impermeable.<br><span>Colores disponibles:</span></p>
+                                        <img src="img/cata/color1.PNG" alt="colores disponibles">
+                                        <p class="precio">$39.900</p>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="https://wa.me/message/WI6EMRFHOAM7K1" target="_blank"><button type="button" class="btn btn-primary boton2">Comprar<img src="img/cata/carrito.png" alt="Icono bolsa de compras"></button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin de modal -->
+                </div>
+        </div>
+
+        <div id="leggins" class="general">
+            <h3>Leggins</h3>
+                <div class="cc">
+                    <!-- Casilla producto -->
+                    <div class="producto">
+                        <img src="img/cata/img70.jpg" alt="Leggins cavaliere">
+                        <h5>Leggins estampado</h5>
+                        <p class="precio">$55.000</p>
+                        <button type="button" class="btn btn-primary boton" data-bs-toggle="modal" data-bs-target="#proa12"><img src="img/cata/boton.png"></button>
+                    </div>
+                    <!-- Fin casilla -->
+                    <!-- Modal -->
+                    <div class="modal fade" id="proa12" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="image">
+                                        <img src="img/cata/img70.jpg" alt="Leggins estampado cavaliere">
+                                    </div>
+                                    <div class="descri">
+                                        <h6>Leggins estampado Cavaliere</h6>
+                                        <p>Tela licrada antitranspirante.<br>
+                                        <p class="precio">$55.000</p>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="https://wa.me/message/WI6EMRFHOAM7K1" target="_blank"><button type="button" class="btn btn-primary boton2">Comprar<img src="img/cata/carrito.png" alt="Icono bolsa de compras"></button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin de modal -->
+
+                    <!-- Casilla producto -->
+                    <div class="producto">
+                        <img src="img/cata/img71.jpg" alt="Leggins estampado cavaliere">
+                        <h5>Leggins estampado</h5>
+                        <p class="precio">$55.000</p>
+                        <button type="button" class="btn btn-primary boton" data-bs-toggle="modal" data-bs-target="#proa13"><img src="img/cata/boton.png"></button>
+                    </div>
+                    <!-- Fin casilla -->
+                    <!-- Modal -->
+                    <div class="modal fade" id="proa13" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="image">
+                                        <img src="img/cata/img71.jpg" alt="Leggins azul estampado Cavaliere">
+                                    </div>
+                                    <div class="descri">
+                                        <h6>Leggins azul estampado Cavaliere</h6>
+                                        <p>Tela licrada antitranspirante.<br>
+                                        <p class="precio">$55.000</p>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="https://wa.me/message/WI6EMRFHOAM7K1" target="_blank"><button type="button" class="btn btn-primary boton2">Comprar<img src="img/cata/carrito.png" alt="Icono bolsa de compras"></button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin de modal -->
+
+                    <!-- Casilla producto -->
+                    <div class="producto">
+                        <img src="img/cata/img72.jpg" alt="Leggins cavaliere">
+                        <h5>Leggins unicolor's</h5>
+                        <p class="precio">$55.000</p>
+                        <button type="button" class="btn btn-primary boton" data-bs-toggle="modal" data-bs-target="#proa14"><img src="img/cata/boton.png"></button>
+                    </div>
+                    <!-- Fin casilla -->
+                    <!-- Modal -->
+                    <div class="modal fade" id="proa14" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="image">
+                                        <img src="img/cata/img72.jpg" alt="Leggins unicolor cavaliere">
+                                    </div>
+                                    <div class="descri">
+                                        <h6>Leggins unicolor Cavaliere</h6>
+                                        <p>Tela licrada antitranspirante.<br><span>Colores disponibles:</span></p>
+                                        <img src="img/cata/color1.PNG" alt="colores disponibles">
+                                        <p class="precio">$55.000</p>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="https://wa.me/message/WI6EMRFHOAM7K1" target="_blank"><button type="button" class="btn btn-primary boton2">Comprar<img src="img/cata/carrito.png" alt="Icono bolsa de compras"></button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin de modal -->
+                </div>
+        </div>
+
+        <div id="kids" class="general">
+            <h3>Kids</h3>
+                <div class="cc">
+                     <!-- Casilla producto -->
+                     <div class="producto">
+                        <img src="img/cata/img89.jpeg" alt="Buso kids cavaliere">
+                        <h5>Buso estampado kids</h5>
+                        <p class="precio">$60.000</p>
+                        <button type="button" class="btn btn-primary boton" data-bs-toggle="modal" data-bs-target="#proa15"><img src="img/cata/boton.png"></button>
+                    </div>
+                    <!-- Fin casilla -->
+                    <!-- Modal -->
+                    <div class="modal fade" id="proa15" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="image">
+                                        <img src="img/cata/img89.jpeg" alt="Buso estampado cavaliere">
+                                    </div>
+                                    <div class="descri">
+                                        <h6>Buso estampado Cavaliere</h6>
+                                        <p>Tela en algodón perchado.<br><span>Colores disponibles:</span></p>
+                                        <img src="img/cata/color2.PNG" alt="colores disponibles">
+                                        <p class="precio">$60.000</p>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="https://wa.me/message/WI6EMRFHOAM7K1" target="_blank"><button type="button" class="btn btn-primary boton2">Comprar<img src="img/cata/carrito.png" alt="Icono bolsa de compras"></button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin de modal -->
+                    <!-- Casilla producto -->
+                    <div class="producto">
+                        <img src="img/cata/img90.jpeg" alt="Combo kids cavaliere">
+                        <h5>Combo estampado</h5>
+                        <p class="precio">$90.000</p>
+                        <button type="button" class="btn btn-primary boton" data-bs-toggle="modal" data-bs-target="#proa16"><img src="img/cata/boton.png"></button>
+                    </div>
+                    <!-- Fin casilla -->
+                    <!-- Modal -->
+                    <div class="modal fade" id="proa16" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="image">
+                                        <img src="img/cata/img90.jpeg" alt="Combo estampado cavaliere">
+                                    </div>
+                                    <div class="descri">
+                                        <h6>Combo estampado Cavaliere</h6>
+                                        <p>Camiseta 100% algodon.<br>
+                                        <p>Buso en algodon perchado</p><span>Colores disponibles:</span></p>
+                                        <img src="img/cata/color2.PNG" alt="colores disponibles">
+                                        <p class="precio">$90.000</p>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="https://wa.me/message/WI6EMRFHOAM7K1" target="_blank"><button type="button" class="btn btn-primary boton2">Comprar<img src="img/cata/carrito.png" alt="Icono bolsa de compras"></button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin de modal -->
+                </div>
+        </div>
+    </div>
+</main>
+
+    <footer>
+        <div id="todo">
+            <div id="lpie">
+                <img src="img/pie/logob.png" alt="Logo de moni bikes">
+            </div>
+            <div id="cont">
+                <h4>CONTACTANOS</h4>
+                <p>+57 321 458 7899</p>
+                <p>+57 311 556 7299</p>
+            </div>
+            <div id="vis">
+                <h4>VISITANOS</h4>
+                <p>Funza - Colombia</p>
+                <p>Trans 21 #4 - 56 sur</p>
+            </div>
+            <div id="redes">
+                <a href="https://wa.me/message/WI6EMRFHOAM7K1" target="_blank"><img src="img/pie/wha.png" alt="Logo Whatsapp"></a>
+                <a href="https://www.tiktok.com/@cavaliere_funza" target="_blank"><img src="img/pie/tt.png" alt="Logo Tik Tok"></a>
+                <a href="https://www.instagram.com/cavaliere__funza/?hl=es" target="_blank"><img src="img/pie/ins.png" alt="Logo Instagram"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js
+    "></script>
+
+</body>
+</html>

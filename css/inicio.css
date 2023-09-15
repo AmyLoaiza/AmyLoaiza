@@ -1,0 +1,190 @@
+#carr img {
+    width: 100%;
+}
+.car {
+    width: 100%;
+    height: 300px; 
+    overflow: hidden;
+}
+.car ul {
+    padding: 0;
+    display: flex;
+    animation: cambio 15s infinite alternate linear;
+    width: 300%;
+}
+.car li {
+    width: 100%;
+    list-style: none;
+}
+.car img {
+    width: 100%;
+    
+}
+@keyframes cambio {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+    40% {margin-left: -100%;}
+    60% {margin-left: -100%;} 
+    80% {margin-left: -200%;}
+    100% {margin-left: -200%;}
+}
+#tarjeta {
+	width: 80%;
+	padding: 3%;
+	margin: 2% 2% 2% 4%;
+	background: var(--azul);
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: 16px;
+	display: flex;
+    transition: .5s ease-in-out;
+}
+#tarjeta:hover {
+    width: 90%;
+    box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.51);
+}
+#tarjeta img{
+	width: 25%;
+	border-radius: 50%;
+}
+#tarjeta p  {
+    padding-right: 8%;
+	margin: 1% 0 2% 0;
+    font-size: 20px;
+    color: white;
+}
+#texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#texto h2 {
+    text-shadow: 2px 2px 2px rgba(255,255,255,0.2);
+    color: var(--naranja);
+    font-weight: bold;
+}
+.beneficios {
+    margin-top: 5%;
+    display: flex;
+    width: 100%;
+    align-items: baseline;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.bene {
+    align-items: center;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    transition: 1s ease-in
+}
+.text p {
+    text-align: center;
+}
+.bene h4 {
+    color: var(--naranja);
+    font-style: italic;
+    font-weight: 600;
+}
+.bene img {
+    margin: 5%;
+    margin-bottom: 10%;
+    width: 50%;
+}
+.bene .text {
+    opacity: 0;
+    transition: 1s ease;
+}
+.bene:hover .text {
+    opacity: 1;
+}
+.bene:hover {
+    transition: 1s ease-in;
+    transform: scale(1.1);
+}
+.mapa {
+    margin-top: 0;
+}
+.mapa h2 {
+    color: var(--azul);
+    text-align: center;
+    margin-bottom: 2%;
+}
+.mapa iframe {
+    width: 100%;
+}
+@media screen and (max-width: 992px) {
+    .bene h4 {
+        font-size: 20px;
+    }
+    .mapa h2 {
+        font-size: 24px;
+    }
+    #texto h2 {
+        font-size: 24px;
+    }
+    #tarjeta p  {   
+        font-size: 18px;
+    }
+    .car {
+        height: 250px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .bene {
+        width: 30%;
+    }
+    .bene p {
+        font-size: 14px;
+    }
+    .bene h4 {
+        font-size: 20px;
+    }
+    .mapa h2 {
+        font-size: 22px;
+    }
+    #texto h2 {
+        font-size: 18px;
+    }
+    #tarjeta {
+        width: 100%;
+    }
+    #tarjeta:hover {
+        width: 105%;
+    }
+    #tarjeta p  {   
+        font-size: 14px;
+    }
+    .car {
+        height: 150px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .bene {
+        width: 35%;
+    }
+    .bene p {
+        font-size: 12px;
+    }
+    .bene h4 {
+        font-size: 20px;
+    }
+    .mapa h2 {
+        font-size: 22px;
+    }
+    #texto h2 {
+        font-size: 18px;
+    }
+    #tarjeta {
+        width: 100%;
+    }
+    #tarjeta:hover {
+        width: 105%;
+    }
+    #tarjeta p  {   
+        font-size: 14px;
+    }
+    .car {
+        height: 150px;
+    }
+}
